@@ -9,8 +9,7 @@ public class MAINprotagonist : MonoBehaviour
     public Camera HELP;
     private GameObject picking_object_temp;
     private string picking_object_temp_name;
-    [SerializeField] public Sprite mouroimg;
-    [SerializeField] private GameObject mouro;
+    [SerializeField] public Sprite mouroimg, kakomouroimg;
     /// ////////////////////////////////////////////////////////////
     [SerializeField] private GameObject inventorything;
     /// ////////////////////////////////////////////////////////////
@@ -18,15 +17,16 @@ public class MAINprotagonist : MonoBehaviour
     public float MouseSensitivity;
     public float MoveSpeed;
     public float JumpForce;
-    private bool tempswitch = false;
+    public bool tempswitch;
     /// ////////////////////////////////////////////////////////////
     public static List<CONSUME_to_data> consumables = new List<CONSUME_to_data>();
-    public static List<CONSUME_to_data> THE_REAL_INVENTORY_4_real= new List<CONSUME_to_data>();
+    public static List<CONSUME_to_data> THE_REAL_INVENTORY= new List<CONSUME_to_data>();
 
     private void Start()
     {
         consumables.Add(new CONSUME_to_data(10, 0, 0, "mouro", mouroimg));
-        
+        consumables.Add(new CONSUME_to_data(2, 0, -10, "kako_mouro", kakomouroimg));
+
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         inventorything.gameObject.SetActive (false);
@@ -34,6 +34,7 @@ public class MAINprotagonist : MonoBehaviour
    
     void Update()
     {
+        print(consumables[0].quantity);
         /// ////////////////////////////////////////////////////////////
         float mouse = Input.GetAxis("Mouse Y");
         HELP.transform.Rotate(new Vector3(-mouse * MouseSensitivity, 0, 0));
@@ -105,15 +106,13 @@ inventorything.gameObject.SetActive(!inventorything.gameObject.activeSelf);
                 
                 if (EAT_KEEP)
                 {
-                    ODOS_EGO.fai += i.pinas;
-                    ODOS_EGO.poto += i.dipsa;
-                    ODOS_EGO.igiaa += i.igia;
+                   
+                    ODOS_EGO.Instance.TROO_ODOS(i.pinas, i.dipsa, i.igia);
                 }
                 else
                 {
-                  //  print(consumables[0].name);
-                  //print(ii);
-                    THE_REAL_INVENTORY_4_real.Add(consumables[ii]);
+                    CHECK_INVENTORY_FOR(nam, ii);
+                    //THE_REAL_INVENTORY.Add(consumables[ii]);
                 }
                 break;
             }
@@ -121,16 +120,50 @@ inventorything.gameObject.SetActive(!inventorything.gameObject.activeSelf);
             ii++;
         }
     }
+    private void CHECK_INVENTORY_FOR(string temp,int tempint)
+    {
+        bool check = true;
+        var temppp = consumables[tempint];
+        foreach (CONSUME_to_data i in THE_REAL_INVENTORY)
+        {
+            if (temp == i.name)
+            {
+                check = false;
+                if (i.quantity < 3)
+                {
+                    i.quantity++;
+                }
+                else
+                {
+                    THE_REAL_INVENTORY.Add(temppp);
+                    
+                }
+                break;
+
+
+            }
+        }
+            if (check)
+            {
+                THE_REAL_INVENTORY.Add(temppp);
+
+            }
+        
+    }
     private void OnTriggerStay(Collider collision)
     {
-        
-        if (collision.gameObject.tag == "mouro")
+        switch (collision.gameObject.tag)
         {
-            picking_object_temp = collision.gameObject;
-            picking_object_temp_name = "mouro";
-
-            
+            case "mouro":
+                picking_object_temp = collision.gameObject;
+                picking_object_temp_name = "mouro";
+                break;
+            case "kako_mouro":
+                picking_object_temp = collision.gameObject;
+                picking_object_temp_name = "kako_mouro";
+                break;
         }
+       
     }
     private void OnTriggerExit(Collider other)
     {
