@@ -17,7 +17,7 @@ public class ODOS_EGO : MonoBehaviour
     }
     private void Update()
     {
-        textt.text = fai.ToString() + "  /   " + poto.ToString() + "  /   " + igiaa.ToString()+" /// "+MAINprotagonist.THE_REAL_INVENTORY.Count;
+        textt.text = fai.ToString() + "  /   " + poto.ToString() + "  /   " + igiaa.ToString()+" /// "+MAIN.INVENTORY.Count;
     }
     public void TROO_ODOS(float f, float p, float i)
     {

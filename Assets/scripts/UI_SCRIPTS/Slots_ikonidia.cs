@@ -7,12 +7,18 @@ public class Slots_ikonidia : MonoBehaviour
 {
     [SerializeField]private int mynum;
     [SerializeField] private TextMeshProUGUI textt;
-    public void SET_Q(string to_PRAMA)
+    private int mycount =0;
+    public void SET_Q(int poso)
     {
-        textt.text = to_PRAMA;
+        
+        textt.text = poso.ToString();
     }
     public void PATI8IKA()
     {
-        maininventory.instance.GET_CHILD_NUM(mynum);
+       // maininventory.instance.GET_CHILD_NUM(mynum);
+        MINI_MENU.Instance.call_on_slot(mynum,this.transform);
+        
     }
+    
+    
 }

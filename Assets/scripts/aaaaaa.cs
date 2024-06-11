@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class aaaaaa : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+	public int x, y;
+	public aaaaaa()
+	{
+		x = 0;
+		y = 0;
+	}
 }

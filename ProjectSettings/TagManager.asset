@@ -6,6 +6,8 @@ TagManager:
   tags:
   - mouro
   - kako_mouro
+  - MAIN
+  - skini
   layers:
   - Default
   - TransparentFX
