@@ -7,13 +7,20 @@ public class MAIN : MonoBehaviour
   
     public Rigidbody Rigid;
     public Camera HELP;
-    private GameObject picking_object_temp;
-    private string picking_object_temp_name;
-    [SerializeField] public Sprite mouroimg, kakomouroimg,skiniIMG;
+    //private GameObject picking_object_temp;
+    //private string picking_object_temp_name;
+   
     /// ////////////////////////////////////////////////////////////
     [SerializeField] private GameObject inventorything;
     /// ////////////////////////////////////////////////////////////
 
+
+    private Ray laserpointer;
+    private RaycastHit laser_HIT;
+    public static Transform EGO_IME_EDO;
+    public static MAIN Instance;
+
+    /// ////////////////////////////////////////////////////////////
     public float MouseSensitivity;
     public float MoveSpeed;
     public float JumpForce;
@@ -22,14 +29,25 @@ public class MAIN : MonoBehaviour
     public static Dictionary<string,CONSUME_to_data> consumables = new Dictionary<string, CONSUME_to_data>();
     public static Dictionary<string, int> INVENTORY = new Dictionary<string, int>();
     public static List<string> INVENTORY_FR = new List<string>();
-   
-    
+    [SerializeField] public Sprite mouroimg, kakomouroimg, skiniIMG, thermosimg, paniimg, ksiloimg, medimg,simeaimg;
 
-    private void Start()
+    [SerializeField] private GameObject AspriSimea;
+
+	private void Awake()
+	{
+        EGO_IME_EDO = transform;
+        Instance = this;
+	}
+	private void Start()
     {
         consumables.Add("mouro",new CONSUME_to_data(10, 0, 0,true,false,false, mouroimg));
         consumables.Add("kako_mouro",new CONSUME_to_data(2, 0, -10,true, false, false, kakomouroimg));
         consumables.Add("skini", new CONSUME_to_data(5, -2, -50, true, false, true, skiniIMG));
+        consumables.Add("thermos", new CONSUME_to_data(0, 0, 0, true, false, true, thermosimg));
+        consumables.Add("ksilo", new CONSUME_to_data(0, 0, 0, true, true, false, ksiloimg));
+        consumables.Add("pani", new CONSUME_to_data(0, 0, 0, false, true, false, paniimg));
+        consumables.Add("med", new CONSUME_to_data(0, 0, 0, true, false, false, medimg));
+        consumables.Add("simea", new CONSUME_to_data(0, 0, 0, false, false, true, simeaimg));
 
 
         Cursor.lockState = CursorLockMode.Locked;
@@ -37,55 +55,77 @@ public class MAIN : MonoBehaviour
         inventorything.gameObject.SetActive (false);
         
     }
-   
+    /// /////////////////////////////////////////////////////////////// ////////////////////////////////////////////////////////////
+    private string checklaser()
+	{
+		if (Physics.Raycast(laserpointer,out laser_HIT))
+        return laser_HIT.collider.gameObject.tag;
+        
+        return default;
+	}
+    private float dis_laser()
+	{
+        if (Physics.Raycast(laserpointer, out laser_HIT))              return Vector3.Distance(transform.position, laser_HIT.collider.gameObject.transform.position);
+      
+        return default;
+    }
+    private GameObject objecthit()
+	{
+        if (Physics.Raycast(laserpointer, out laser_HIT))            return laser_HIT.collider.gameObject;
+
+        return default;
+    }
+    /// /////////////////////////////////////////////////////////////// ////////////////////////////////////////////////////////////
     void Update()
     {
-		//if (GameManager.state == GameManager.GAMESTATE.chilling)
-		//{
-            /// ////////////////////////////////////////////////////////////
-            float mouse = Input.GetAxis("Mouse Y");
-            HELP.transform.Rotate(new Vector3(-mouse * MouseSensitivity, 0, 0));
-            Rigid.MoveRotation(Rigid.rotation * Quaternion.Euler(new Vector3(0, Input.GetAxis("Mouse X") * MouseSensitivity, 0)));
-            // if(tempswitch )///prosorini allagi
-            // {
-            Rigid.MovePosition(transform.position + (transform.forward * Input.GetAxis("Vertical") * MoveSpeed) + (transform.right * Input.GetAxis("Horizontal") * MoveSpeed));
-            // }
+       
+        /// ////////////////////////////////////////////////////////////
+        EGO_IME_EDO = transform;
+
+      laserpointer = new(HELP.transform.position, HELP.transform.forward);
 
 
-            if (Input.GetKeyDown("space") /*&& tempswitch*/)
+        if (checklaser() =="mouro"|| checklaser() == "kako_mouro" || checklaser() == "skini" || checklaser() == "thermos" || checklaser() == "ksilo" || checklaser() == "pani" || checklaser() == "pani" || checklaser() == "med")
+		{
+            //AN SIMADEVIS KATI INTERACTABLE
+            if (dis_laser() < 3)//AN SIMADEVIS KATI pou ine koda
             {
-                            Rigid.AddForce(transform.up * JumpForce);
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        var tempname = checklaser();
+                        Destroy(objecthit());
+                        troo_i_apo8ikevo(tempname, false);
+                    }
 
-                            /// ////////////////////////////////////////////////////////////
-                            /// 
-                            if (Input.GetKeyDown(KeyCode.R))
-                        {
-                            if (picking_object_temp != default)
-                            {
-                                if (picking_object_temp != null)
-                                {
-                                    // SALAMALEKOUM.GetComponent<NERDEMOJI>().FUCKME();
-                                    Destroy(picking_object_temp.gameObject);
-                                    troo_i_apo8ikevo(picking_object_temp_name, true);
-                                    picking_object_temp = null;
-                                    picking_object_temp_name = null;
-                                }
-                            }
-                        }
-                        if (Input.GetKeyDown(KeyCode.E))
-                        {
-                            if(picking_object_temp != null)
-                            {
-                            Destroy(picking_object_temp.gameObject);
-                            troo_i_apo8ikevo(picking_object_temp_name, false);
-                            picking_object_temp = null;
-                            picking_object_temp_name = null;
-
-                            }
-                        }
+                    if (Input.GetKeyDown(KeyCode.R))
+                    {
+                        var tempname = checklaser();
+                        Destroy(objecthit());
+                        troo_i_apo8ikevo(tempname, true);
+                    }
             }
 
-		//} 
+        }
+
+
+		/// ////////////////////////////////////////////////////////////  KINISI
+		if (!inventorything.gameObject.activeSelf)
+		{
+        float mouse = Input.GetAxis("Mouse Y");
+            HELP.transform.Rotate(new Vector3(-mouse * MouseSensitivity, 0, 0));
+            Rigid.MoveRotation(Rigid.rotation * Quaternion.Euler(new Vector3(0, Input.GetAxis("Mouse X") * MouseSensitivity, 0)));
+          
+            Rigid.MovePosition(transform.position + (transform.forward * Input.GetAxis("Vertical") * MoveSpeed) + (transform.right * Input.GetAxis("Horizontal") * MoveSpeed));
+        
+
+
+        if (Input.GetKeyDown("space") /*&& tempswitch*/)
+        {
+            Rigid.AddForce(transform.up * JumpForce);
+        }
+
+		}
+                   
                             if (Input.GetKeyDown(KeyCode.Tab))
                             {
 
@@ -96,18 +136,18 @@ public class MAIN : MonoBehaviour
                                 if (inventorything.gameObject.activeSelf) {
                                     Cursor.lockState = CursorLockMode.None;
                                     Cursor.visible = true;
-             //   GameManager.Instance.Update_STATE(GameManager.GAMESTATE.in_inventory);
+         
                                 }
                                 else
                                 {
                                     Cursor.lockState = CursorLockMode.Locked;
                                     Cursor.visible = false;
-               // GameManager.Instance.Update_STATE(GameManager.GAMESTATE.chilling);
-            }
+              
+                                   }
                             }
 
     }
-    private void troo_i_apo8ikevo(string nam, bool EAT_KEEP)
+   public void troo_i_apo8ikevo(string nam, bool EAT_KEEP)
     {
         int ii = 0;
         
@@ -142,32 +182,40 @@ public class MAIN : MonoBehaviour
             ii++;
         }
     }
-    
-    private void OnTriggerStay(Collider collision)
-    {
-        switch (collision.gameObject.tag)
-        {
-            case "mouro":
-                picking_object_temp = collision.gameObject;
-                picking_object_temp_name = "mouro";
-                break;
-            case "kako_mouro":
-                picking_object_temp = collision.gameObject;
-                picking_object_temp_name = "kako_mouro";
-                break;
-            case "skini":
-                picking_object_temp = collision.gameObject;
-                picking_object_temp_name = "skini";
-                break;
 
-        }
+
+    public void SIMOS()
+	{
+        var temp = Instantiate(AspriSimea);
+        temp.transform.SetParent(this.transform);
+        temp.transform.localPosition = new Vector3(0.55f, -0.2f, 1f);   
+	}
+    
+    //private void OnTriggerStay(Collider collision)
+    //{
+    //    switch (collision.gameObject.tag)
+    //    {
+    //        case "mouro":
+    //            picking_object_temp = collision.gameObject;
+    //            picking_object_temp_name = "mouro";
+    //            break;
+    //        case "kako_mouro":
+    //            picking_object_temp = collision.gameObject;
+    //            picking_object_temp_name = "kako_mouro";
+    //            break;
+    //        case "skini":
+    //            picking_object_temp = collision.gameObject;
+    //            picking_object_temp_name = "skini";
+    //            break;
+
+    //    }
        
-    }
-    private void OnTriggerExit(Collider other)
-    {
-        picking_object_temp = null;
-        picking_object_temp_name = null;
-    }
+    //}
+    //private void OnTriggerExit(Collider other)
+    //{
+    //    picking_object_temp = null;
+    //    picking_object_temp_name = null;
+    //}
     private void OnCollisionExit(Collision collision)
     {
         if (collision.gameObject.tag == "gamoedafos")
@@ -175,8 +223,8 @@ public class MAIN : MonoBehaviour
             tempswitch = false;
 
         }
-        picking_object_temp = null;
-        picking_object_temp_name = null;
+        //picking_object_temp = null;
+        //picking_object_temp_name = null;
     }
 
 

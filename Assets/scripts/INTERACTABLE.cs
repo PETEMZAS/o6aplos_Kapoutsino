@@ -6,14 +6,20 @@ public class INTERACTABLE : MonoBehaviour
 {
 	[SerializeField] private GameObject HIG_LIG;
 
-
-	private void OnTriggerStay(Collider other)
+	private void Update()
 	{
-		if(other.tag=="MAIN") HIG_LIG.SetActive(true);
+		if (Vector3.Distance(transform.position, MAIN.EGO_IME_EDO.transform.position)<3)      HIG_LIG.SetActive(true);
+
+		else HIG_LIG.SetActive(false);
 
 	}
-	private void OnTriggerExit(Collider other)
-	{
-		if (other.tag == "MAIN") HIG_LIG.SetActive(false);
-	}
+	//private void OnTriggerStay(Collider other)
+	//{
+	//	if(other.tag=="MAIN") HIG_LIG.SetActive(true);
+
+	//}
+	//private void OnTriggerExit(Collider other)
+	//{
+	//	if (other.tag == "MAIN") HIG_LIG.SetActive(false);
+	//}
 }

@@ -7,7 +7,6 @@ public class Slots_ikonidia : MonoBehaviour
 {
     [SerializeField]private int mynum;
     [SerializeField] private TextMeshProUGUI textt;
-    private int mycount =0;
     public void SET_Q(int poso)
     {
         
