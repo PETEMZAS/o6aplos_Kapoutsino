@@ -56,9 +56,9 @@ public class MAIN : MonoBehaviour
     public static Dictionary<string,CONSUME_to_data> consumables = new Dictionary<string, CONSUME_to_data>();
     public static Dictionary<string, int> INVENTORY = new Dictionary<string, int>();
     public static List<string> INVENTORY_FR = new List<string>();
-    [SerializeField] public Sprite mouroimg, kakomouroimg, skiniIMG, thermosimg, paniimg, ksiloimg, medimg,skiniimg;
+    [SerializeField] public Sprite mouroimg, kakomouroimg, filoimg, thermosimg, paniimg, ksiloimg, medimg,skiniimg, thermosimg2;
 
-    [SerializeField] private GameObject SKINI;
+    [SerializeField] private GameObject SKINI,BOUKALI;
     private GameObject tempobj=default;
 
 	private void Awake()
@@ -70,12 +70,13 @@ public class MAIN : MonoBehaviour
     {
         consumables.Add("mouro",new CONSUME_to_data(10, 0, 0,true,false,false, mouroimg));
         consumables.Add("kako_mouro",new CONSUME_to_data(2, 0, -10,true, false, false, kakomouroimg));
-        consumables.Add("skini", new CONSUME_to_data(5, -2, -50, true, false, true, skiniIMG));
-        consumables.Add("thermos", new CONSUME_to_data(0, 0, 0, true, false, true, thermosimg));
+        consumables.Add("thermos", new CONSUME_to_data(0, 0, 0, false, false, true, thermosimg));
         consumables.Add("ksilo", new CONSUME_to_data(0, 0, 0, true, true, false, ksiloimg));
         consumables.Add("pani", new CONSUME_to_data(0, 0, 0, false, true, false, paniimg));
-        consumables.Add("med", new CONSUME_to_data(0, 0, 0, true, false, false, medimg));
-        consumables.Add("simea", new CONSUME_to_data(0, 0, 0, false, false, true, skiniimg));
+        consumables.Add("med", new CONSUME_to_data(0, 0, 30, true, false, false, medimg));
+        consumables.Add("skini", new CONSUME_to_data(0, 0, 0, false, false, true, skiniimg));
+        consumables.Add("thermos_nero", new CONSUME_to_data(0,10, 0, true, true, false, thermosimg2));
+        consumables.Add("filo", new CONSUME_to_data(0, 0, -2, true, true, false, filoimg));
 
 
         Cursor.lockState = CursorLockMode.Locked;
@@ -119,7 +120,7 @@ public class MAIN : MonoBehaviour
       laserpointer = new(CAMERA__.transform.position, CAMERA__.transform.forward); 
 
 
-        if ((checklaser() =="mouro"|| checklaser() == "kako_mouro" || checklaser() == "skini" || checklaser() == "thermos" || checklaser() == "ksilo" || checklaser() == "pani" || checklaser() == "pani" || checklaser() == "med")&&(state==1))
+        if ((checklaser() =="mouro"|| checklaser() == "kako_mouro" || checklaser() == "skini" || checklaser() == "thermos" || checklaser() == "ksilo" || checklaser() == "pani" || checklaser() == "pani" || checklaser() == "med" || checklaser() == "filo") &&(state==1))
 		{
             //AN SIMADEVIS KATI INTERACTABLE
             if (dis_laser() < 3)//AN SIMADEVIS KATI pou ine koda
@@ -188,27 +189,49 @@ public class MAIN : MonoBehaviour
 		///  /// ////////////////////////////////////////////////////////////   /// ////////////////////////////////////////////////////////////
 		if (state == 3)
 		{
-			
+            Vector3 worldPosition=default;
             laserpointer = new(CAMERA__.transform.position, CAMERA__.transform.forward);
-                if (Physics.Raycast(laserpointer, out laser_HIT))
-                {
-                    Vector3 worldPosition = laser_HIT.point;
-                     tempobj.transform.position=worldPosition;     
-                }
-            if (Input.GetMouseButtonDown(0))
-            {
-                state = 1;
-                var temp = Instantiate(tempobj);
-                temp.transform.position = tempobj.transform.position;
-                Destroy(tempobj);
-            }
-            else if(Input.GetMouseButtonDown(1))
+                if (Physics.Raycast(laserpointer, out laser_HIT))    worldPosition = laser_HIT.point;
+
+			switch (DEPLOYING_NAME)
 			{
-                state = 1;
-                Destroy(tempobj);
-                troo_i_apo8ikevo(DEPLOYING_NAME, false);
-                DEPLOYING_NAME = null;
-            }
+                case "skini":
+            tempobj.transform.position = worldPosition;
+                                if (Input.GetMouseButtonDown(0))
+                                {
+                                    state = 1;
+                                    var temp = Instantiate(tempobj);
+                                    temp.transform.position = tempobj.transform.position;
+                                    Destroy(tempobj);
+                                }
+                                else if(Input.GetMouseButtonDown(1))
+			                    {
+                                    state = 1;
+                                    Destroy(tempobj);
+                                    troo_i_apo8ikevo(DEPLOYING_NAME, false);
+                                    DEPLOYING_NAME = null;
+                                }
+                    break;
+                case "thermos":
+                    if (Input.GetMouseButtonDown(0)&&laser_HIT.collider.gameObject.tag=="nero")
+                    {
+                        state = 1;
+                        troo_i_apo8ikevo("thermos_nero", false);
+                        troo_i_apo8ikevo("thermos_nero", false);
+                        troo_i_apo8ikevo("thermos_nero", false);
+                        Destroy(tempobj);
+                    }
+                    else if (Input.GetMouseButtonDown(1))
+                    {
+                        state = 1;
+                        Destroy(tempobj);
+                        troo_i_apo8ikevo(DEPLOYING_NAME, false);
+                        DEPLOYING_NAME = null;
+                    }
+                    break;
+			}       
+
+
         }
 
 
@@ -228,7 +251,7 @@ public class MAIN : MonoBehaviour
                 if (EAT_KEEP)
                 {
                  
-                    Protagonist_stats.Instance.TROO_ODOS(consumables[nam].pinas, consumables[nam].dipsa, consumables[nam].igia);
+                    maininventory.instance.TROO_ODOS(consumables[nam].pinas, consumables[nam].dipsa, consumables[nam].igia);
                 }
                 else
                 {
@@ -255,8 +278,14 @@ public class MAIN : MonoBehaviour
 	{
         state = 3;
         DEPLOYING_NAME = dep;
-        if(dep=="simea") tempobj =Instantiate(SKINI);
+        if(dep=="skini") tempobj =Instantiate(SKINI);
 
+        if(dep=="thermos")
+		{
+            tempobj = Instantiate(BOUKALI);
+            tempobj.transform.SetParent (this.transform);
+            tempobj.transform.localPosition = new Vector3(0, 0, 1.3f);
+		}
 
     }
     

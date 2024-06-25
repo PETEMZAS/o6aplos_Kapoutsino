@@ -17,6 +17,7 @@ public class MINI_MENU_BUTTONS : MonoBehaviour
 	public void SECELECTED_OPTION()
 	{
 		MINI_MENU.Instance.SELECTED_ACTION(mytype);
+
 	}
 
 }

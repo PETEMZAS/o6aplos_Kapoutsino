@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
-
+using TMPro;
 
 public class maininventory : MonoBehaviour
 {
@@ -23,9 +23,16 @@ public class maininventory : MonoBehaviour
     private bool enadio = true;
     /// ///////////////////////////////////////////////////////////////////////////
     /// 
-
+    [SerializeField] private TextMeshProUGUI[] textt=new TextMeshProUGUI[3];
+    [SerializeField] private Image[] bg_of_Stats =new Image[3];
+    [SerializeField] private Image[] bars_of_stats = new Image[3];
+    public static float fai = 0.5f;
+    public static float poto = 0.5f;
+    public static float igiaa = 0.7f;
    
-	
+
+    /// ///////////////////////////////////////////////////////////////////////////
+    /// 
 
 
 
@@ -35,8 +42,8 @@ public class maininventory : MonoBehaviour
     }
     private void Start()
     {
+        
 
-       
         for (int yy = 0; yy < 9; yy++)
         {
             inslots[yy].gameObject.GetComponent<Slots_ikonidia>().SET_Q(0);
@@ -46,11 +53,32 @@ public class maininventory : MonoBehaviour
     }
     public void Update()
     {
+        /// ///////////////////////////////////////////////////////////////////////////
+        /// ///////////////////////////////////////////////////////////////////////////
+        SET_PROTAGONIST_BARS();
+        if (MAIN.state == 2)
+        { 
+            for(int II=0;II<3;II++) bg_of_Stats[II].gameObject.SetActive(false);
+
+        }
         
+        else
+        {
+            for (int II = 0; II < 3; II++) bg_of_Stats[II].gameObject.SetActive(true);
+
+        }
+        /// ///////////////////////////////////////////////////////////////////////////
+        /// ///////////////////////////////////////////////////////////////////////////
+
         if ((CRAFTSLOT1 =="pani" && CRAFTSLOT2 == "ksilo")|| (CRAFTSLOT1 == "ksilo" && CRAFTSLOT2 == "pani" ))
         {
            
-            craft_FINAL = "simea";
+            craft_FINAL = "skini";
+            ITEAM3.sprite = MAIN.consumables[craft_FINAL].img;
+        }
+        else if( (CRAFTSLOT1 == "thermos_nero" && CRAFTSLOT2 == "filo") || (CRAFTSLOT1 == "filo" && CRAFTSLOT2 == "thermos_nero"))
+		{
+            craft_FINAL = "med";
             ITEAM3.sprite = MAIN.consumables[craft_FINAL].img;
         }
         else
@@ -61,7 +89,7 @@ public class maininventory : MonoBehaviour
 
         if (CRAFT_MODE)
 		{
-            THE_menu.transform.localScale=new Vector3(0.75f, 0.75f, 0.75f);
+            THE_menu.transform.localScale=new Vector3(0.60f, 0.60f, 0.60f);
             THE_menu.transform.localPosition = CRAFT_SC;
             CRAFTING_MENU.gameObject.SetActive(true);
 
@@ -74,7 +102,7 @@ public class maininventory : MonoBehaviour
 		{
             CRAFTING_MENU.gameObject.SetActive(false);
             
-            THE_menu.transform.localScale = new Vector3(1,1, 1);
+            THE_menu.transform.localScale = new Vector3(0.75f, 0.75f, 0.75f);
             THE_menu.transform.localPosition = FULL_SC;
             CLEAR_CRAFT_TABLE();
         }
@@ -197,7 +225,7 @@ public class maininventory : MonoBehaviour
                         MAIN.INVENTORY.Remove(auto);
                     }
 
-                    Protagonist_stats.Instance.TROO_ODOS(MAIN.consumables[auto].pinas, MAIN.consumables[auto].dipsa, MAIN.consumables[auto].igia);
+                  TROO_ODOS(MAIN.consumables[auto].pinas, MAIN.consumables[auto].dipsa, MAIN.consumables[auto].igia);
                     REFRESH_IN();
                    break;
 
@@ -206,18 +234,19 @@ public class maininventory : MonoBehaviour
                 THE_CRAFT(CURRENT_ITEAMS_ON_DISPLAY[i]);
                     break;
                 case 3:
-				if (CURRENT_ITEAMS_ON_DISPLAY[i] == "simea")
+				if (CURRENT_ITEAMS_ON_DISPLAY[i] == "skini")
 				{
-                    Invoke("tempsolution", 1);
-                   // MAIN.Instance.DEPLOYING_THING(CURRENT_ITEAMS_ON_DISPLAY[i]);
-                    
+                    Invoke("tempsolution", 1);                 
                     Quick_remove(CURRENT_ITEAMS_ON_DISPLAY[i]);
                    
+                }
+               else if(CURRENT_ITEAMS_ON_DISPLAY[i] == "thermos")
+				{
+                    Invoke("tempsolution2", 1);
+                    Quick_remove(CURRENT_ITEAMS_ON_DISPLAY[i]);
 
                 }
-
-
-                    break;
+              break;
 
             }
         
@@ -226,11 +255,14 @@ public class maininventory : MonoBehaviour
         
     public void tempsolution()
 	{
-        MAIN.Instance.DEPLOYING_THING("simea");
+        MAIN.Instance.DEPLOYING_THING("skini");
+    }
+    public void tempsolution2()
+    {
+        MAIN.Instance.DEPLOYING_THING("thermos");
     }
 
-
-   public void REFRESH_IN()
+    public void REFRESH_IN()
 	{
         for (int yy = 0; yy < 9; yy++)
         {
@@ -251,4 +283,17 @@ public class maininventory : MonoBehaviour
 
 		
 	}
+    public void TROO_ODOS(float f, float p, float i)
+    {
+        fai += f/100;
+        poto += p/100;
+        igiaa += i/100;
+    }
+    public void SET_PROTAGONIST_BARS()
+    {
+        textt[0].text = fai.ToString() + "/1"; textt[1].text = poto.ToString() + "/1"; textt[2].text = igiaa.ToString() + "/1";
+        bars_of_stats[0].fillAmount = fai; bars_of_stats[1].fillAmount = poto; bars_of_stats[2].fillAmount = igiaa;
+
+    }
+
 }
