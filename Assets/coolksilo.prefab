@@ -109,8 +109,8 @@ GameObject:
   - component: {fileID: 1670089545904804266}
   - component: {fileID: 550123196462220277}
   - component: {fileID: 1605919167929384731}
-  - component: {fileID: 1345549971036269018}
   - component: {fileID: 1100386640759614981}
+  - component: {fileID: 53924404138598680}
   m_Layer: 0
   m_Name: coolksilo
   m_TagString: ksilo
@@ -127,7 +127,7 @@ Transform:
   m_GameObject: {fileID: 5315380102717965974}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8.45, y: 2.17, z: -8.564974}
-  m_LocalScale: {x: 0.03, y: 1.22, z: -0.05}
+  m_LocalScale: {x: 3.61, y: 2.06, z: 1.69}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7762195808496025410}
@@ -141,7 +141,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5315380102717965974}
-  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 4300000, guid: 5528351815fd4c04abf537f22c7e18f1, type: 3}
 --- !u!23 &1605919167929384731
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -184,20 +184,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &1345549971036269018
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5315380102717965974}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 5.0702763
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: -0.566988}
 --- !u!114 &1100386640759614981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,3 +197,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HIG_LIG: {fileID: 2776291632667331124}
+--- !u!136 &53924404138598680
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5315380102717965974}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.40700024
+  m_Height: 0.21063974
+  m_Direction: 1
+  m_Center: {x: 0.001674816, y: 0.044984, z: -0.0013372748}

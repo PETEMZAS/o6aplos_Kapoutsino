@@ -5,38 +5,35 @@
 //public class GameManager : MonoBehaviour
 //{
 //	public static GameManager Instance;
-//	public static GAMESTATE state;
+//	public static int state;
 //	void Awake()
 //	{
 //		Instance = this;
-//		Update_STATE(GAMESTATE.chilling);
+
 //	}
-//	public void Update_STATE(GAMESTATE newstate)
+//	private void Start()
 //	{
-//		state = newstate;
-//		switch (state)
+//		Update_STATE(1);
+//		print(state);
+//	}
+//	public void Update_STATE(int state_in_int)
+//	{
+
+//		switch (state_in_int)
 //		{
-//			case GAMESTATE.chilling:
-
+//			case 1:
+//				state = 1;
 //				break;
-//			case GAMESTATE.in_inventory:
-
+//			case 2:
+//				state =2;
 //				break;
-//			case GAMESTATE.crafting:
-
-//				break;
-//			case GAMESTATE.deploying:
-
+//			case 3:
+//				state = 3;
 //				break;
 
 //		}
 //	}
 
-//	public enum GAMESTATE
-//	{
-//		chilling,
-//		in_inventory,
-//		crafting,
-//		deploying
-//	}
+
+	
 //}

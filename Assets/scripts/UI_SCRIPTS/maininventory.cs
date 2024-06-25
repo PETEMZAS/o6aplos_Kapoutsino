@@ -146,7 +146,7 @@ public class maininventory : MonoBehaviour
 
                 
             case 3:
-                    print("AAAAAAAAAAAAAAAAAAAAAAAA");
+                    
 				if (craft_FINAL != null)
 				{
 
@@ -197,7 +197,7 @@ public class maininventory : MonoBehaviour
                         MAIN.INVENTORY.Remove(auto);
                     }
 
-                    ODOS_EGO.Instance.TROO_ODOS(MAIN.consumables[auto].pinas, MAIN.consumables[auto].dipsa, MAIN.consumables[auto].igia);
+                    Protagonist_stats.Instance.TROO_ODOS(MAIN.consumables[auto].pinas, MAIN.consumables[auto].dipsa, MAIN.consumables[auto].igia);
                     REFRESH_IN();
                    break;
 
@@ -208,7 +208,8 @@ public class maininventory : MonoBehaviour
                 case 3:
 				if (CURRENT_ITEAMS_ON_DISPLAY[i] == "simea")
 				{
-                    MAIN.Instance.SIMOS();
+                    Invoke("tempsolution", 1);
+                   // MAIN.Instance.DEPLOYING_THING(CURRENT_ITEAMS_ON_DISPLAY[i]);
                     
                     Quick_remove(CURRENT_ITEAMS_ON_DISPLAY[i]);
                    
@@ -223,8 +224,12 @@ public class maininventory : MonoBehaviour
 
 	}
         
-    
-  
+    public void tempsolution()
+	{
+        MAIN.Instance.DEPLOYING_THING("simea");
+    }
+
+
    public void REFRESH_IN()
 	{
         for (int yy = 0; yy < 9; yy++)
