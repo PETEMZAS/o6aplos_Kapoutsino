@@ -156,7 +156,7 @@ public class MAIN : MonoBehaviour
         
 
 
-        if (Input.GetKeyDown("space") /*&& tempswitch*/)
+        if (Input.GetKeyDown("space") && tempswitch)
         {
             Rigid.AddForce(transform.up * JumpForce);
         }
@@ -292,13 +292,13 @@ public class MAIN : MonoBehaviour
   
     private void OnCollisionExit(Collision collision)
     {
-        if (collision.gameObject.tag == "gamoedafos")
-        {
-            tempswitch = false;
-
-        }
-       
+        if (collision.gameObject.tag == "gamoedafos")           tempswitch = false;
+  
     }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "gamoedafos") tempswitch = true;
 
+    }
 
 }

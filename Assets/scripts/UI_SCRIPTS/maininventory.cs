@@ -26,9 +26,9 @@ public class maininventory : MonoBehaviour
     [SerializeField] private TextMeshProUGUI[] textt=new TextMeshProUGUI[3];
     [SerializeField] private Image[] bg_of_Stats =new Image[3];
     [SerializeField] private Image[] bars_of_stats = new Image[3];
-    public static float fai = 0.5f;
+    public static float fai = 0.7f;
     public static float poto = 0.5f;
-    public static float igiaa = 0.7f;
+    public static float igiaa = 0.3f;
    
 
     /// ///////////////////////////////////////////////////////////////////////////
@@ -43,6 +43,7 @@ public class maininventory : MonoBehaviour
     private void Start()
     {
         
+      
 
         for (int yy = 0; yy < 9; yy++)
         {
@@ -244,6 +245,7 @@ public class maininventory : MonoBehaviour
 				{
                     Invoke("tempsolution2", 1);
                     Quick_remove(CURRENT_ITEAMS_ON_DISPLAY[i]);
+                    GAME_MECANICS.Instance.PLUS_GP(15);
 
                 }
               break;

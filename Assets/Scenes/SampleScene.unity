@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.4839639, g: 0.5757418, b: 0.6802009, a: 1}
+  m_IndirectSpecularColor: {r: 0.4839628, g: 0.57574326, b: 0.6802007, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -133,6 +133,10 @@ PrefabInstance:
     - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_Name
       value: thamnos_kalo (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
@@ -334,6 +338,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: thamnos_kalo (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -398,6 +406,10 @@ PrefabInstance:
     - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_Name
       value: thamnos_kalo (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
@@ -552,9 +564,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1717086885895166100, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
       propertyPath: m_Name
       value: coolksilo (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_TagString
+      value: ksilo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
@@ -568,6 +588,10 @@ PrefabInstance:
     - target: {fileID: 3558664540340949611, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
       propertyPath: m_Name
       value: thamnos_kako (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3558664540340949611, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8121449206755451096, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
       propertyPath: m_RootOrder
@@ -633,6 +657,10 @@ PrefabInstance:
     - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_Name
       value: thamnos_kalo (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
@@ -722,6 +750,10 @@ PrefabInstance:
     - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_Name
       value: thamnos_kalo (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
@@ -1013,6 +1045,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 185840461}
   m_CullTransparentMesh: 1
+--- !u!1 &191798185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 191798187}
+  - component: {fileID: 191798186}
+  m_Layer: 0
+  m_Name: GAMEPOINTS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &191798186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191798185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2641911310e90849808ef281437a38c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textt: {fileID: 692240318}
+--- !u!4 &191798187
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191798185}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -253.65874, y: 1.13149, z: -227.83286}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &193554505 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
@@ -1095,6 +1172,10 @@ PrefabInstance:
     - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_Name
       value: thamnos_kalo (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
@@ -1201,9 +1282,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1717086885895166100, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
       propertyPath: m_Name
       value: coolksilo (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_TagString
+      value: ksilo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
@@ -1335,9 +1424,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1717086885895166100, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
       propertyPath: m_Name
       value: coolksilo (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_TagString
+      value: ksilo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
@@ -1356,6 +1453,10 @@ PrefabInstance:
     - target: {fileID: 3558664540340949611, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
       propertyPath: m_Name
       value: thamnos_kako (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3558664540340949611, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8121449206755451096, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
       propertyPath: m_RootOrder
@@ -1559,6 +1660,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: thamnos_kalo (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1623,6 +1728,10 @@ PrefabInstance:
     - target: {fileID: 3558664540340949611, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
       propertyPath: m_Name
       value: thamnos_kako (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3558664540340949611, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8121449206755451096, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
       propertyPath: m_RootOrder
@@ -1729,9 +1838,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1717086885895166100, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
       propertyPath: m_Name
       value: coolksilo (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_TagString
+      value: ksilo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
@@ -1745,6 +1862,10 @@ PrefabInstance:
     - target: {fileID: 3558664540340949611, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
       propertyPath: m_Name
       value: thamnos_kako (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3558664540340949611, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8121449206755451096, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
       propertyPath: m_RootOrder
@@ -1800,6 +1921,82 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
+--- !u!1 &343744743
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 343744744}
+  - component: {fileID: 343744746}
+  - component: {fileID: 343744745}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &343744744
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343744743}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.12, y: 0.12, z: 0.12}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1932647468}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &343744745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343744743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &343744746
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343744743}
+  m_CullTransparentMesh: 1
 --- !u!1001 &350097175
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1810,6 +2007,10 @@ PrefabInstance:
     - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_Name
       value: thamnos_kalo (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
@@ -1875,6 +2076,10 @@ PrefabInstance:
     - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_Name
       value: thamnos_kalo (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
@@ -1981,9 +2186,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1717086885895166100, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
       propertyPath: m_Name
       value: coolksilo (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_TagString
+      value: ksilo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
@@ -2038,9 +2251,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1717086885895166100, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
       propertyPath: m_Name
       value: coolksilo (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_TagString
+      value: ksilo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
@@ -2119,9 +2340,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1717086885895166100, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
       propertyPath: m_Name
       value: coolksilo (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_TagString
+      value: ksilo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
@@ -2149,6 +2378,42 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: fa2e670bb3648a84b9df8d16da25b85e, type: 3}
+--- !u!1 &402340225
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 402340226}
+  m_Layer: 0
+  m_Name: //////////////////////////////////TEMP STUFF FOR TEST//////
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &402340226
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402340225}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -254.26495, y: 1.0787663, z: -239.17711}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 455438978}
+  - {fileID: 1036523627}
+  - {fileID: 1733166850}
+  - {fileID: 1321328125}
+  - {fileID: 416428755}
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &407668592 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3558664540340949611, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
@@ -2295,6 +2560,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 413633080}
   m_CullTransparentMesh: 1
+--- !u!4 &416428755 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7852791215415761156, guid: 6ef863893cf4729428fff4fd7d70443f, type: 3}
+  m_PrefabInstance: {fileID: 7852791216522414256}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &423403661
 GameObject:
   m_ObjectHideFlags: 0
@@ -2644,9 +2914,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1717086885895166100, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
       propertyPath: m_Name
       value: coolksilo (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_TagString
+      value: ksilo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
@@ -2762,9 +3040,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -19.228
       objectReference: {fileID: 0}
+    - target: {fileID: 1717086885895166100, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
       propertyPath: m_Name
       value: coolksilo (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_TagString
+      value: ksilo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
@@ -2864,8 +3150,13 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &455438978 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2263836180367913112, guid: 5bcd4b3d8619ac7489200f1e866cb3c8, type: 3}
+  m_PrefabInstance: {fileID: 897942275}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &462118204
 GameObject:
   m_ObjectHideFlags: 0
@@ -3011,6 +3302,10 @@ PrefabInstance:
     - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_Name
       value: thamnos_kalo (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
@@ -3373,9 +3668,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1717086885895166100, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
       propertyPath: m_Name
       value: coolksilo (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_TagString
+      value: ksilo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
@@ -3389,6 +3692,10 @@ PrefabInstance:
     - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_Name
       value: thamnos_kalo (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
@@ -3478,6 +3785,10 @@ PrefabInstance:
     - target: {fileID: 3558664540340949611, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
       propertyPath: m_Name
       value: thamnos_kako (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3558664540340949611, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8121449206755451096, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
       propertyPath: m_RootOrder
@@ -3703,7 +4014,7 @@ GameObject:
   - component: {fileID: 555309389}
   m_Layer: 0
   m_Name: thamnoi
-  m_TagString: Untagged
+  m_TagString: gamoedafos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3723,7 +4034,7 @@ Transform:
   - {fileID: 2095686647}
   - {fileID: 1272455531}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &585324988
 GameObject:
@@ -3920,6 +4231,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: thamnos_kalo (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -4049,9 +4364,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1717086885895166100, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
       propertyPath: m_Name
       value: coolksilo (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_TagString
+      value: ksilo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
@@ -4065,6 +4388,10 @@ PrefabInstance:
     - target: {fileID: 3558664540340949611, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
       propertyPath: m_Name
       value: thamnos_kako (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3558664540340949611, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8121449206755451096, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
       propertyPath: m_RootOrder
@@ -4130,6 +4457,10 @@ PrefabInstance:
     - target: {fileID: 3558664540340949611, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
       propertyPath: m_Name
       value: thamnos_kako (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3558664540340949611, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8121449206755451096, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
       propertyPath: m_RootOrder
@@ -4394,12 +4725,155 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1717086885895166100, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
       propertyPath: m_Name
       value: coolksilo (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_TagString
+      value: ksilo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+--- !u!1 &692240316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 692240317}
+  - component: {fileID: 692240319}
+  - component: {fileID: 692240318}
+  m_Layer: 5
+  m_Name: GP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &692240317
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692240316}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1932647468}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -14, y: -19}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 1, y: 1}
+--- !u!114 &692240318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692240316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 100
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 3
+  m_HorizontalAlignment: 4
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &692240319
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692240316}
+  m_CullTransparentMesh: 1
 --- !u!4 &693375844 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1670089545904804266, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
@@ -4550,6 +5024,10 @@ PrefabInstance:
     - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_Name
       value: thamnos_kalo (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
@@ -4730,6 +5208,10 @@ PrefabInstance:
     - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_Name
       value: thamnos_kalo (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
@@ -4937,6 +5419,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: thamnos_kalo (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -5000,7 +5486,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 497722c3fb6dd224595437fafa941ea8, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 497722c3fb6dd224595437fafa941ea8, type: 3}
       propertyPath: m_LocalScale.x
@@ -5254,6 +5740,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: thamnos_kalo (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -5318,6 +5808,10 @@ PrefabInstance:
     - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_Name
       value: thamnos_kalo (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
@@ -5412,7 +5906,7 @@ GameObject:
   - component: {fileID: 871681404}
   - component: {fileID: 871681403}
   m_Layer: 0
-  m_Name: ego
+  m_Name: EGO(protagonist)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5542,7 +6036,7 @@ Transform:
   m_Children:
   - {fileID: 963194228}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1001 &885243967
 PrefabInstance:
@@ -5554,6 +6048,10 @@ PrefabInstance:
     - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_Name
       value: thamnos_kalo (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
@@ -5614,7 +6112,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 402340226}
     m_Modifications:
     - target: {fileID: 2263836180367913092, guid: 5bcd4b3d8619ac7489200f1e866cb3c8, type: 3}
       propertyPath: m_Name
@@ -5626,19 +6124,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2263836180367913112, guid: 5bcd4b3d8619ac7489200f1e866cb3c8, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2263836180367913112, guid: 5bcd4b3d8619ac7489200f1e866cb3c8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -254.26495
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2263836180367913112, guid: 5bcd4b3d8619ac7489200f1e866cb3c8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.0787663
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2263836180367913112, guid: 5bcd4b3d8619ac7489200f1e866cb3c8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -239.17711
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2263836180367913112, guid: 5bcd4b3d8619ac7489200f1e866cb3c8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5646,15 +6144,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2263836180367913112, guid: 5bcd4b3d8619ac7489200f1e866cb3c8, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2263836180367913112, guid: 5bcd4b3d8619ac7489200f1e866cb3c8, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2263836180367913112, guid: 5bcd4b3d8619ac7489200f1e866cb3c8, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2263836180367913112, guid: 5bcd4b3d8619ac7489200f1e866cb3c8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5782,6 +6280,10 @@ PrefabInstance:
     - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_Name
       value: thamnos_kalo (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
@@ -5932,7 +6434,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &916847299 stripped
 Transform:
@@ -5970,7 +6472,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &927886786
 MonoBehaviour:
@@ -6294,7 +6796,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 80.3
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -6320,7 +6822,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.25, z: 0}
+  m_LocalPosition: {x: 0, y: 0.961, z: 0.435}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6396,7 +6898,7 @@ RectTransform:
   - {fileID: 585324989}
   - {fileID: 1458859990}
   m_Father: {fileID: 1932647468}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6610,6 +7112,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1011329969}
   m_CullTransparentMesh: 1
+--- !u!4 &1036523627 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8792685742090967828, guid: 32b962ee3b7b1b647bff9e166a2a475e, type: 3}
+  m_PrefabInstance: {fileID: 1511701968}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1049879116 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
@@ -6685,9 +7192,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1717086885895166100, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
       propertyPath: m_Name
       value: coolksilo (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_TagString
+      value: ksilo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
@@ -7237,6 +7752,10 @@ PrefabInstance:
     - target: {fileID: 3558664540340949611, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
       propertyPath: m_Name
       value: thamnos_kako (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3558664540340949611, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8121449206755451096, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
       propertyPath: m_RootOrder
@@ -7840,7 +8359,7 @@ GameObject:
   - component: {fileID: 1272455531}
   m_Layer: 0
   m_Name: thamnoi_kakoi
-  m_TagString: Untagged
+  m_TagString: gamoedafos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7906,7 +8425,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 402340226}
     m_Modifications:
     - target: {fileID: 8792685742090967824, guid: 32b962ee3b7b1b647bff9e166a2a475e, type: 3}
       propertyPath: m_Name
@@ -7914,19 +8433,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8792685742090967828, guid: 32b962ee3b7b1b647bff9e166a2a475e, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8792685742090967828, guid: 32b962ee3b7b1b647bff9e166a2a475e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -255.72618
+      value: -1.4612274
       objectReference: {fileID: 0}
     - target: {fileID: 8792685742090967828, guid: 32b962ee3b7b1b647bff9e166a2a475e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.31709146
+      value: -0.7616749
       objectReference: {fileID: 0}
     - target: {fileID: 8792685742090967828, guid: 32b962ee3b7b1b647bff9e166a2a475e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -236.29526
+      value: 2.8818512
       objectReference: {fileID: 0}
     - target: {fileID: 8792685742090967828, guid: 32b962ee3b7b1b647bff9e166a2a475e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7934,15 +8453,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8792685742090967828, guid: 32b962ee3b7b1b647bff9e166a2a475e, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8792685742090967828, guid: 32b962ee3b7b1b647bff9e166a2a475e, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8792685742090967828, guid: 32b962ee3b7b1b647bff9e166a2a475e, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8792685742090967828, guid: 32b962ee3b7b1b647bff9e166a2a475e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8131,9 +8650,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1717086885895166100, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
       propertyPath: m_Name
       value: coolksilo
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_TagString
+      value: ksilo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
@@ -8192,6 +8719,11 @@ MonoBehaviour:
   op1: {fileID: 1424799974}
   op2: {fileID: 683967936}
   op3: {fileID: 950307054}
+--- !u!4 &1321328125 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3122619557175339810, guid: 6caee1e845726784d92191f01b3fe031, type: 3}
+  m_PrefabInstance: {fileID: 2125091656}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1337155955 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
@@ -8545,6 +9077,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: thamnos_kalo (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -8639,6 +9175,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: thamnos_kako (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 3558664540340949611, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
     - target: {fileID: 8121449206755451096, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -8703,6 +9243,10 @@ PrefabInstance:
     - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_Name
       value: thamnos_kalo (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
@@ -9019,6 +9563,10 @@ PrefabInstance:
     - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_Name
       value: thamnos_kalo (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
@@ -9342,6 +9890,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: thamnos_kalo (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -9425,7 +9977,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 402340226}
     m_Modifications:
     - target: {fileID: 8792685742090967824, guid: 32b962ee3b7b1b647bff9e166a2a475e, type: 3}
       propertyPath: m_Name
@@ -9433,19 +9985,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8792685742090967828, guid: 32b962ee3b7b1b647bff9e166a2a475e, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8792685742090967828, guid: 32b962ee3b7b1b647bff9e166a2a475e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -258.0862
+      value: -3.8212585
       objectReference: {fileID: 0}
     - target: {fileID: 8792685742090967828, guid: 32b962ee3b7b1b647bff9e166a2a475e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.44680738
+      value: -0.63195896
       objectReference: {fileID: 0}
     - target: {fileID: 8792685742090967828, guid: 32b962ee3b7b1b647bff9e166a2a475e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -235.71783
+      value: 3.4592743
       objectReference: {fileID: 0}
     - target: {fileID: 8792685742090967828, guid: 32b962ee3b7b1b647bff9e166a2a475e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9453,15 +10005,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8792685742090967828, guid: 32b962ee3b7b1b647bff9e166a2a475e, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8792685742090967828, guid: 32b962ee3b7b1b647bff9e166a2a475e, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8792685742090967828, guid: 32b962ee3b7b1b647bff9e166a2a475e, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8792685742090967828, guid: 32b962ee3b7b1b647bff9e166a2a475e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9488,7 +10040,7 @@ GameObject:
   - component: {fileID: 1532132382}
   m_Layer: 0
   m_Name: xula
-  m_TagString: Untagged
+  m_TagString: gamoedafos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9523,7 +10075,7 @@ Transform:
   - {fileID: 275393800}
   - {fileID: 1432237482}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1588882702 stripped
 Transform:
@@ -9804,6 +10356,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: thamnos_kako (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3558664540340949611, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
     - target: {fileID: 8121449206755451096, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -9892,6 +10448,10 @@ PrefabInstance:
     - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_Name
       value: thamnos_kalo (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
@@ -9982,6 +10542,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: thamnos_kako (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 3558664540340949611, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
     - target: {fileID: 8121449206755451096, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -10070,6 +10634,10 @@ PrefabInstance:
     - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_Name
       value: thamnos_kalo (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
@@ -10160,6 +10728,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: thamnos_kalo (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -10224,6 +10796,10 @@ PrefabInstance:
     - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_Name
       value: thamnos_kalo (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
@@ -10334,6 +10910,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1717086885895166100, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2776291632667331124, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -10345,6 +10925,10 @@ PrefabInstance:
     - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_TagString
+      value: ksilo
       objectReference: {fileID: 0}
     - target: {fileID: 6773804091646415920, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
       propertyPath: m_Mesh
@@ -10373,6 +10957,11 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 7854548080371790297, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+--- !u!4 &1733166850 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8792685742090967828, guid: 32b962ee3b7b1b647bff9e166a2a475e, type: 3}
+  m_PrefabInstance: {fileID: 1290956846}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1742375174
 GameObject:
   m_ObjectHideFlags: 0
@@ -10549,6 +11138,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: thamnos_kako (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 3558664540340949611, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
     - target: {fileID: 8121449206755451096, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -10654,9 +11247,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1717086885895166100, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
       propertyPath: m_Name
       value: coolksilo (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_TagString
+      value: ksilo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
@@ -10835,6 +11436,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: thamnos_kako (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 3558664540340949611, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
     - target: {fileID: 8121449206755451096, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -10900,6 +11505,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: thamnos_kako (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3558664540340949611, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
     - target: {fileID: 8121449206755451096, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -10964,6 +11573,10 @@ PrefabInstance:
     - target: {fileID: 3558664540340949611, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
       propertyPath: m_Name
       value: thamnos_kako (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3558664540340949611, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8121449206755451096, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
       propertyPath: m_RootOrder
@@ -11382,9 +11995,11 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 343744744}
+  - {fileID: 692240317}
   - {fileID: 982664375}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -11401,6 +12016,10 @@ PrefabInstance:
     - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_Name
       value: thamnos_kalo (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
@@ -11538,6 +12157,10 @@ PrefabInstance:
     - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_Name
       value: thamnos_kalo (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
@@ -11728,6 +12351,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: thamnos_kako (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3558664540340949611, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
     - target: {fileID: 8121449206755451096, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -11862,9 +12489,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1717086885895166100, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
       propertyPath: m_Name
       value: coolksilo (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315380102717965974, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
+      propertyPath: m_TagString
+      value: ksilo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19594ad4a6efb0a4aaf3be0007c56eca, type: 3}
@@ -11879,7 +12514,7 @@ GameObject:
   - component: {fileID: 2095686647}
   m_Layer: 0
   m_Name: thamnoi_kaloi
-  m_TagString: Untagged
+  m_TagString: gamoedafos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12094,23 +12729,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 402340226}
     m_Modifications:
     - target: {fileID: 3122619557175339810, guid: 6caee1e845726784d92191f01b3fe031, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3122619557175339810, guid: 6caee1e845726784d92191f01b3fe031, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -251.61374
+      value: 2.6512146
       objectReference: {fileID: 0}
     - target: {fileID: 3122619557175339810, guid: 6caee1e845726784d92191f01b3fe031, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.02
+      value: -0.058766365
       objectReference: {fileID: 0}
     - target: {fileID: 3122619557175339810, guid: 6caee1e845726784d92191f01b3fe031, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -237.79907
+      value: 1.3780365
       objectReference: {fileID: 0}
     - target: {fileID: 3122619557175339810, guid: 6caee1e845726784d92191f01b3fe031, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12118,15 +12753,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3122619557175339810, guid: 6caee1e845726784d92191f01b3fe031, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3122619557175339810, guid: 6caee1e845726784d92191f01b3fe031, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3122619557175339810, guid: 6caee1e845726784d92191f01b3fe031, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3122619557175339810, guid: 6caee1e845726784d92191f01b3fe031, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -12156,6 +12791,10 @@ PrefabInstance:
     - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_Name
       value: thamnos_kalo (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
@@ -12222,6 +12861,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: thamnos_kalo
       objectReference: {fileID: 0}
+    - target: {fileID: 3365490428725408215, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
     - target: {fileID: 8026358174462493540, guid: 522c1edc9c192b749aa1743b89675372, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -12286,6 +12929,10 @@ PrefabInstance:
     - target: {fileID: 3558664540340949611, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
       propertyPath: m_Name
       value: thamnos_kako
+      objectReference: {fileID: 0}
+    - target: {fileID: 3558664540340949611, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
       objectReference: {fileID: 0}
     - target: {fileID: 8121449206755451096, guid: 3a1cec894d5ed4246ab5423963b2f4f3, type: 3}
       propertyPath: m_RootOrder
@@ -12358,6 +13005,842 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 119116371953812746, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 133373187415148485, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 146033345661073423, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 181632943624374190, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 202075929035037535, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 302882656843090021, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 360609827416665454, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 396598880672245502, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 550164362813975895, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 582686757367660101, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 586348675721464033, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 634308345450285881, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 681189867011916279, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 770813200873418745, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 779052111732914479, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 792299828780662429, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 825782847464550243, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 874359119708063784, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 911939054085060769, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 970051525559941059, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 991843620744295818, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 1013741770933584826, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038927251127178641, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 1049924649245237558, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 1081757542942251238, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177860636518255196, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190177000215117046, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 1195679213943689143, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 1243810614328030586, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274284104656784138, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294004519362203286, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321223299370949555, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 1355152559254625059, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 1357259720976893959, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 1387643299951724489, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 1400266994386688300, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 1573069890758841521, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 1620495348419563477, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 1726176325953064749, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881690858757393908, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 1904231741657734295, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 1927152374573751729, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 1983351908138472114, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994524208726878389, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2081943993392509318, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2119022384667209271, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2128972349089560145, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139797926506938785, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2147470230176174577, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2153332849955025840, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2160766944823958497, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2165400086211503119, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2174887210109158801, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192421831720017713, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2202857960692559218, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248080324366092263, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2281065040491769124, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2285127299226052286, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2289923310573338221, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2316020297910031910, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2323120892159185191, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392091827365896483, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404585029554744762, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448538811137948979, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2457155622752555407, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2479402001621422819, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2505480772996047897, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2520692744422651906, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2527821316359983154, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2543161537867294513, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569201382028290241, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2602433557973295977, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2687896924825079433, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2723828687464658998, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2782583016646530152, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2799111681177850260, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806096254362138131, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2837727739832598457, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2861527567688227912, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2905451111153937891, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2910602530172703159, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953251323112016211, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 3008174165677553575, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 3066621759492749150, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 3080146748122649551, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 3152192189218711523, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156658077309394855, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 3352811046985663793, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 3413264160022978008, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 3426452457720551415, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438013772536993320, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 3516348348026805587, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 3529942578418400269, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 3535447924602580213, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 3536591454640811761, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 3550099202704654465, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 3612545969399205993, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 3680008147147176609, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 3695746735097461962, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 3714159419467387257, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 3753642955566801414, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 3760195042235875518, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 3764599198795173671, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 3811452888045468526, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 3904748990486793690, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 3916279299983810903, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 3916692963708934646, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 3972848454283262415, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 4052199713427990682, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 4054168321250896776, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 4059965788955210689, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 4109258574470513212, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252765902090371477, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 4274955975134817133, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 4281438222386571006, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 4315256891292653719, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 4339270122976852665, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 4397220536062416073, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 4397299461168689282, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445080448494316657, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 4447061313582266847, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483931174258240675, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 4641111716449446208, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672555495755430693, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 4674988766408918920, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723710823716993563, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739615678840763201, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767619662424705657, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 4775345241206123433, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 4842917478152542446, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 4861252956019481522, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 4867939950460851214, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916545254332945751, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033760789795057002, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 5055763475106596415, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 5129326211328886841, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157278835556518510, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 5158535493980113092, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172269371541730394, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 5184383970573630228, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 5378188899981003826, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 5399322882139298259, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 5412550913594971437, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 5473857724709399696, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 5479531597562435685, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 5524635409177659191, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 5579811158623917947, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 5580202654095358759, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591831111124797980, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 5602134047253150714, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668406329273942808, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 5678653085517227956, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720981082293229424, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 5814561200741141835, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 5858135615437223650, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 5907538999939213366, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 5913742406752505401, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 5980024259922783563, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 5986276976727533634, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 5990957808038251663, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6001478151493580799, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050220462147423817, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101048239707813799, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6109254209325325477, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6159840811131230019, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6161801530158711069, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6171407038240015227, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6184471266118387955, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202849507096232719, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6229051090124676420, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6244153756903095753, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6289712759501682047, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336828112506982218, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6350250042635837531, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6359857258737336134, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387732143730687047, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6459063159434132363, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6491344958503416021, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6515685747947722515, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6555154795373166238, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6600297375877849443, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6661495143434828503, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6856647676593207633, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869894640033774828, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6892232734484716293, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6903352518772937222, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 7189423377094462663, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 7219175406166319786, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 7234954081799283807, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 7300731479210488285, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 7353452739109972176, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 7394641639694949962, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 7417106133798335595, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 7442501128726771534, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 7461249432347897119, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500574657416704990, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 7537707443563122434, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546799664582748098, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 7596136935561882772, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600386884618744765, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 7635377234493453363, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 7666300069138464201, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 7760607155313183268, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 7764983194448670796, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765111329842952480, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 7771600376136846898, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814047773293752616, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 7883919106597453908, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 7938576827876489236, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
     - target: {fileID: 7951478781501627326, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
       propertyPath: m_Name
       value: gameGround
@@ -12366,9 +13849,13 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7951478781501627326, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
     - target: {fileID: 7951478781501627327, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7951478781501627327, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12410,6 +13897,118 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7966646037106506064, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122744832013067973, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 8145629198415004405, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224954553477010668, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 8269031919048012321, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309276836241293892, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 8338056358689435144, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 8390734496194669885, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 8434108036197715490, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442224264952207424, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 8458656552031622939, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 8505245760598565470, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 8521623925244833777, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568451600486970297, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568594087464266946, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 8599528400891292687, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 8620758741235614034, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 8709475369575049021, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 8729190862785638249, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 8765883144541986651, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 8854470670715070437, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881452115080464054, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 8892920286579667620, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 8920532531577755192, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939472486391479121, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994735041711207840, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 9031533960772936190, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
+    - target: {fileID: 9121688646350544160, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
+      propertyPath: m_TagString
+      value: gamoedafos
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63ca1a67d4033804fbd31684c8bbb18f, type: 3}
 --- !u!4 &7820886035690890872 stripped
@@ -12436,23 +14035,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 402340226}
     m_Modifications:
     - target: {fileID: 7852791215415761156, guid: 6ef863893cf4729428fff4fd7d70443f, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7852791215415761156, guid: 6ef863893cf4729428fff4fd7d70443f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -251.74
+      value: 2.5249481
       objectReference: {fileID: 0}
     - target: {fileID: 7852791215415761156, guid: 6ef863893cf4729428fff4fd7d70443f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.7
+      value: -0.37876636
       objectReference: {fileID: 0}
     - target: {fileID: 7852791215415761156, guid: 6ef863893cf4729428fff4fd7d70443f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -236.59
+      value: 2.5871124
       objectReference: {fileID: 0}
     - target: {fileID: 7852791215415761156, guid: 6ef863893cf4729428fff4fd7d70443f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12460,15 +14059,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7852791215415761156, guid: 6ef863893cf4729428fff4fd7d70443f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7852791215415761156, guid: 6ef863893cf4729428fff4fd7d70443f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7852791215415761156, guid: 6ef863893cf4729428fff4fd7d70443f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7852791215415761156, guid: 6ef863893cf4729428fff4fd7d70443f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
