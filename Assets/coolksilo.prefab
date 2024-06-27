@@ -182,6 +182,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HIG_LIG: {fileID: 2776291632667331124}
+  tip: {fileID: 0}
+  tipfather: {fileID: 0}
 --- !u!65 &1717086885895166100
 BoxCollider:
   m_ObjectHideFlags: 0
