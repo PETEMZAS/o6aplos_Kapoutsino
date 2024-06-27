@@ -316,9 +316,13 @@ public class maininventory : MonoBehaviour
     }
     public void SET_PROTAGONIST_BARS()
     {
-        var tempf= fai * 100;
-        Mathf.Round(fai);
-        textt[0].text = tempf.ToString() + "/100"; textt[1].text = poto.ToString() + "/1"; textt[2].text = igiaa.ToString() + "/1";
+        var tempf= (int)(fai * 100);
+       
+        var tempv = (int)(poto * 100);
+       
+        var tempn = (int)(igiaa * 100);
+       
+        textt[0].text = tempf.ToString() + "/100"; textt[1].text = tempv.ToString() + "/100"; textt[2].text = tempn.ToString() + "/100";
         bars_of_stats[0].fillAmount = fai; bars_of_stats[1].fillAmount = poto; bars_of_stats[2].fillAmount = igiaa;
 
     }

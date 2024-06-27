@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 7852791215415761155}
   - component: {fileID: 7852791215415761154}
   - component: {fileID: 7852791215415761152}
+  - component: {fileID: -507109851400831109}
   m_Layer: 0
   m_Name: filo
   m_TagString: filo
@@ -184,6 +185,19 @@ MonoBehaviour:
   HIG_LIG: {fileID: 7852791215224631150}
   tip: {fileID: 0}
   tipfather: {fileID: 0}
+--- !u!65 &-507109851400831109
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7852791215415761183}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.78253174, y: 0.9999999, z: 0.91342163}
+  m_Center: {x: -0.03605652, y: 0, z: -0.043289185}
 --- !u!1001 &5925844558405878600
 PrefabInstance:
   m_ObjectHideFlags: 0

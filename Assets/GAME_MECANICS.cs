@@ -43,7 +43,7 @@ public class GAME_MECANICS : MonoBehaviour
 
        if(Input.GetKeyDown(KeyCode.F10)) SceneManager.LoadScene("WIN");
 
-        textt.text = GAMEPOINTS.ToString();
+        textt.text = GAMEPOINTS.ToString() + "/" + GAME_POINTS_GOAL;
 		if (Input.GetKey(KeyCode.W)|| Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.Space) )
 		{
           
